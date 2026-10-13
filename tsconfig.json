@@ -1,0 +1,8 @@
+# Не трогать переводы строк — иначе большой index.html бьётся при заливке
+* -text
+*.html binary
+*.css binary
+*.js binary
+*.svg binary
+*.jpg binary
+*.png binary

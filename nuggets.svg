@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="68%">
+      <stop offset="0%" stop-color="#2a1418"/>
+      <stop offset="100%" stop-color="#0a0908"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="38%" cy="28%" r="72%">
+      <stop offset="0%" stop-color="#2e2220"/>
+      <stop offset="100%" stop-color="#100c0c"/>
+    </radialGradient>
+    <radialGradient id="rice" cx="38%" cy="30%" r="72%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d9cfbc"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="400" cy="340" rx="330" ry="205" fill="url(#plate)"/>
+  <ellipse cx="400" cy="340" rx="330" ry="205" fill="none" stroke="#e0c48a" stroke-opacity="0.26"/>
+
+  <g>
+    <g transform="translate(240,240)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#c2321f"/></g>
+    <g transform="translate(390,220)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#c2321f"/></g>
+    <g transform="translate(540,240)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#8a1a0c"/></g>
+    <g transform="translate(290,330)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#c2321f"/></g>
+    <g transform="translate(440,330)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#8a1a0c"/></g>
+    <g transform="translate(590,335)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#c2321f"/></g>
+    <g transform="translate(250,430)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#8a1a0c"/></g>
+    <g transform="translate(400,435)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#c2321f"/></g>
+    <g transform="translate(550,440)"><ellipse cy="6" rx="42" ry="30" fill="#000" opacity="0.55"/><circle r="40" fill="#1c2b1c"/><circle r="31" fill="url(#rice)"/><ellipse rx="20" ry="6" fill="#8a1a0c"/></g>
+  </g>
+
+  <ellipse cx="400" cy="510" rx="320" ry="24" fill="#000" opacity="0.45"/>
+</svg>
